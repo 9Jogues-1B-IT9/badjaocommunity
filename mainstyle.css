@@ -1,0 +1,200 @@
+*{
+     margin:0;
+     padding:0;
+     font-family:sans-serif;
+}
+  
+.banner{
+     width:100%;
+	 height:100vh;
+	 background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(home.jpg);
+	 background-size: cover;
+	 background-position: center;
+}
+
+.navigationbar{
+width:85%;
+margin: auto;
+padding: 35px 0;
+display: flex;
+}
+.navigationbar ul li{
+list-style: none;
+display: inline-block;
+margin: 0 20px;
+position: relative;
+}
+.navigationbar ul li a{
+text-decoration:none;
+color: #fff;
+text-transform:uppercase;
+}
+.navigationbar ul li::after{
+content: '';
+height: 3px;
+width: 0;
+background: #154360;
+position:absolute;
+left: 0;
+bottom: -10px;
+transition: 0.25s;
+}
+.navigationbar ul li:hover::after{
+width:100%;
+}
+.summary{
+width: 100%;
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+text-align: center;
+color: white;
+}
+.summary h1{
+font-family: "Sofia", sans-serif;
+font-size: 100px;
+margin-top: 30px;
+}
+.summary p{
+padding:0px;
+font-weight: 100;
+line-height: 25px;
+font-size: 20px;
+}
+.content{
+margin-top: 0px;
+padding:100px;
+font-weight: 100;
+line-height: 25px;
+}
+.text{
+width: 100%;
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+text-align: center;
+color: white;
+}
+.text h1{
+font-family: "Sofia", sans-serif;
+font-size: 60px;
+margin-top: 30px;
+
+}
+.text p{
+padding:0px;
+font-weight: 100;
+line-height: 25px;
+font-size: 20px;
+}
+.answers{
+margin-top: 0px;
+padding:100px;
+font-weight: 100;
+line-height: 25px;
+}
+.answers p{
+text-align:justify;
+}
+.basos{
+width: 100%;
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+text-align: center;
+color: white;
+}
+.basos h1{
+font-family: "Sofia", sans-serif;
+font-size:65px;
+margin-top: 30px;
+}
+.words{
+margin-top: 0px;
+padding:100px;
+font-weight: 100;
+line-height: 25px;
+}
+.words h2{
+text-align: justify:
+}
+.words p{
+text-align: justify;
+}
+.bg{
+     width:100%;
+	 height:100vh;
+	 background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bgpic.jpg);
+	 background-size: cover;
+	 background-position: center;
+}
+.background{
+     width:100%;
+	 height:100vh;
+	 background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Study.jpg);
+	 background-size: cover;
+	 background-position: center;
+}
+.bgbanner{
+     width:100%;
+	 height:100vh;
+	 background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(vashdrawing1.png);
+	 background-size: cover;
+	 background-position: center;
+}
+.title{
+width: 100%;
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+text-align: center;
+color: white;
+}
+.title h1{
+font-family: "Sofia", sans-serif;
+font-size:150px;
+margin-top: 30px;
+}
+.pictures{
+margin-top: 10px;
+padding:50px;
+font-weight: 100;
+line-height: 25px;
+}
+.pictures img{
+width:350px;
+height:350px;
+float: left;
+margin-left:100px;
+margin-right:25px;
+padding:30px;
+}
+.backbanner{
+     width:100%;
+	 height:100vh;
+	 background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(backbanner.jpg);
+	 background-size: cover;
+	 background-position: center;
+}
+.team{
+width: 100%;
+position: absolute;
+top:50%;
+transform: translateY(-50%);
+text-align: center;
+color: white;
+}
+.team h1{
+font-family: "Sofia", sans-serif;
+font-size:100px;
+margin-top: 30px;
+}
+.members{
+margin-top: 10px;
+padding: 50px;
+}
+.members img{
+width: 700px;
+height: 450px;
+
+}
